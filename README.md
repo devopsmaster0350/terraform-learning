@@ -1,6 +1,6 @@
 ### Module VPC
 
-* Backend configuration mean the gcs configuration should be outside of the sub modules , it has to be root modules `main.tf` file.
+* Backend configuration mean the gcs configuration should be outside of the sub modules , it has to be root modules `main.tf` file or it  can be in `backend.tf` seperate file. 
 
 ```
   terraform init
